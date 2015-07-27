@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Day:</strong>
+  <%= @entry.day %>
+</p>
+
+<p>
+  <strong>In:</strong>
+  <%= @entry.in %>
+</p>
+
+<p>
+  <strong>Out:</strong>
+  <%= @entry.out %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @entry.comment %>
+</p>
+
+<%= link_to 'Edit', edit_entry_path(@entry) %> |
+<%= link_to 'Back', entries_path %>
